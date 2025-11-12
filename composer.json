@@ -1,0 +1,24 @@
+{
+    "name": "fontebasso/json-to-toon",
+    "description": "json-to-toon converts verbose JSON into a lightweight, LLM-friendly “Toon” format — optimized for ChatGPT and other AI models to cut token usage, boost context efficiency, and keep responses sharp.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fontebasso\\JsonToToon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel Fontebasso",
+            "email": "samuel.txd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^12.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always"
+    }
+}
