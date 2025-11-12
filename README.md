@@ -1,5 +1,8 @@
 # json-to-toon
 
+[![Tests](https://github.com/fontebasso/json-to-toon/actions/workflows/tests.yml/badge.svg)](https://github.com/fontebasso/json-to-toon/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 `json-to-toon` is a lightweight PHP library that converts verbose JSON into a compact, LLM-optimized format called TOON.
 The TOON format preserves structure while minimizing token usage, improving context efficiency for large language models such as ChatGPT and Claude.
 
